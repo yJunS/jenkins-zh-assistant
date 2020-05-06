@@ -23,9 +23,9 @@ pipeline {
                         body: "共有${indexValue}篇文章需要发布，链接如下:\n${content}", 
                         cc: '', 
                         from: 'yJunS@jenkins-zh.cn', 
-                        replyTo: 'yJunS@jenkins-zh.cn', 
+                        replyTo: 'media@jenkins-zh.cn', 
                         subject: "jenkins-zh(${today}) 共有${indexValue}篇文章需要发布", 
-                        to: '116480283@qq.com'
+                        to: 'media@jenkins-zh.cn'
                     }
                     
                 }
